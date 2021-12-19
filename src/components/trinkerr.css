@@ -1,0 +1,94 @@
+.container{
+    padding: 2%;
+}
+
+.input-box{
+    width: 50%;
+    height: 20px;
+    font-size:23px;
+    padding: 1%;
+}
+
+.main-float{
+    margin: 0% 23.9%;
+    padding:0% 1% 1% 1%;
+    border: 1px solid rgb(219, 218, 218);
+    border-top: none;
+    float: left;
+    width: 100%;
+    background-color: white;
+}
+
+.main-float1{
+    margin: 0% 12%;
+    padding:0% 2% 2% 2%;
+    border: 1px solid rgb(231, 226, 226);
+    border-top: none;
+    float: left;
+    width: 70%;
+    
+}
+
+.float-left{
+    float:left;
+    text-align: left;
+}
+
+.float-right{
+    float: right;
+    text-align: right;
+}
+
+.float-font{
+    font-size: 21px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.fixed{
+    position: absolute;
+    z-index: 7;
+    width: 49.2%;
+    height: 10px;
+    left: 13.2%;
+}
+
+.plus{
+    width: 22px;
+    border: 1px solid rgb(209, 202, 202);
+    padding: 1% 2%;
+    float: right;
+    position: absolute;
+    right: -26%;
+    margin-top: 4%;
+    z-index: 10;
+    background-color: white;
+    cursor: pointer;
+}
+
+.main-div{
+    margin-top: 5%;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	border-bottom: 9px solid #17c0cc;
+    float: right;
+    margin-top: 11%;
+    margin-right: 5px;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	border-top: 9px solid #f51111;
+    float: right;
+    margin-top: 11%;
+    margin-right: 5px;
+}
